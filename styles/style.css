@@ -27,9 +27,12 @@
 
 /* shared */
 .primary-span{
-    color: rgba(233, 90, 8, 1);
-  
-}
+    color: rgba(233, 90, 8, 1);}
+
+ .primary-btn{
+    background-color: rgba(233, 90, 8, 1);
+    border: none;
+    color: white;}   
 
 /* nav style */
 
@@ -94,20 +97,67 @@
 }
 /* end */
 
+/* plants-section */
+
+.plants{
+    padding-top: 110px;
+}
+
+.plants-title{
+    font-size: 50px;
+    font-weight: bold;}
+
+.plants-para{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 15px;}
+
+.plnats-contain{
+    text-align: center;}
+
+.add-btn{
+    padding: 19px 87px 19px 87px;
+    margin-top: 25px;
+}
+
+.lily{
+   padding-top: 25px;
+   padding-left: 80px;
+   padding-right: 80px;
+}
+.usd{
+    padding-top: 7px;
+    padding-left: 97px;
+    padding-right: 97px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 50px;
+   row-gap:30px; 
+    
+}
+
+
+
+
+
+
 /* media-query */
 @media (max-width: 431px){
     
     /* nav */
-       .none-button{
-        display: none;
-       }
+     .nav{
+        margin-left: 23px;}
+  .none-button{
+        display: none;}
     .carts{
         font-size: 30px;
         position: absolute;
         right: -120px;
-         top: 15px;
-    }
-   /* end */
+         top: 15px;}
+/* end */
 
     /* banner */
       .banner{
@@ -123,8 +173,17 @@
         }
 /* end */
 
-
-
+/* plants-section */
+    .card{
+        grid-template-columns: repeat(2,1fr);
+        margin: 0px 8px;
+        column-gap: 15px;
+    }
+       .plnats-contain{position: relative;
+                      left:16%;}  
+    /* end */
+    
+   
 
       }
 
