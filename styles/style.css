@@ -135,8 +135,34 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     padding-top: 50px;
-   row-gap:30px; 
-    
+   row-gap:30px;}
+/* end */
+
+/* plants-lover-section */
+
+.plants-lover{
+    padding-top: 210px;
+    display: flex;
+    gap: 60px;}
+
+.badge{
+    width: 286px;
+    height: 286px;
+    position: relative;
+    top: -730px;
+    right: -350px;}
+
+.plants-lover-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 40px;}
+
+.details{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 540px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 
@@ -182,8 +208,34 @@
        .plnats-contain{position: relative;
                       left:16%;}  
     /* end */
-    
+
+    /* plants-lover-section */
+     .badge{
+        display: none;}
+     
+     .plants-lover{
+        flex-direction: column;}
+
+     .flower-store{
+        position: relative;
+        left: 15px;}
+
+   .plants-lover-detail{
+         position: relative;
+        left: 15px;
+        margin-top: -75px;}
+
+        .hide-br{
+            display: none;
+        }
+    .plants-lover-title{font-size: 35px;}
+
+     .plants-lover{
+        padding-top: 80px;}
+
+   /* end */
    
+
 
       }
 
