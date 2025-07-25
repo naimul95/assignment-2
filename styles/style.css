@@ -1,4 +1,9 @@
 
+@keyframes spin {
+    from { transform: rotate(0deg);}
+    to{  transform: rotate(360deg);} }
+
+
 *{
     box-sizing:border-box;
     padding: 0;
@@ -24,6 +29,9 @@
     max-width: 1140px;
     margin: auto;
 }
+.container-width-2{
+    max-width: 1440px;
+    margin: auto;}
 
 /* shared */
 .primary-span{
@@ -150,7 +158,8 @@
     height: 286px;
     position: relative;
     top: -730px;
-    right: -350px;}
+    right: -350px;
+    animation: spin 3s linear infinite;                 }
 
 .plants-lover-title{
     font-size: 50px;
@@ -164,7 +173,34 @@
     margin-top: 20px;
     margin-left: 20px;
 }
+/* end */
 
+
+/* footer */
+
+.main-div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+    
+.footer-para{
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.5);
+        width: 359px;}
+footer,a{
+    display: block;
+     margin-bottom: 30px;
+     color: rgba(107, 114, 128, 1);}
+ 
+  .footer-img{ display: inline;
+                margin-right: 10px;}
+
+      footer{
+        padding-top: 50px; }    
+        
+        
+    .logo-div{
+        margin-left: -50px;}
 
 
 
@@ -181,7 +217,7 @@
     .carts{
         font-size: 30px;
         position: absolute;
-        right: -120px;
+        right: -150px;
          top: 15px;}
 /* end */
 
@@ -197,16 +233,18 @@
         .banner-title{
             margin-left: 30px;
         }
+        .main-img{ position: relative;
+         left: 50px;}
 /* end */
 
 /* plants-section */
     .card{
         grid-template-columns: repeat(2,1fr);
-        margin: 0px 8px;
+        margin: 0px 30px;
         column-gap: 15px;
     }
        .plnats-contain{position: relative;
-                      left:16%;}  
+                      left:20%;}  
     /* end */
 
     /* plants-lover-section */
@@ -218,11 +256,11 @@
 
      .flower-store{
         position: relative;
-        left: 15px;}
+        left: 40px;}
 
    .plants-lover-detail{
          position: relative;
-        left: 15px;
+        left: 30px;
         margin-top: -75px;}
 
         .hide-br{
@@ -234,10 +272,25 @@
         padding-top: 80px;}
 
    /* end */
-   
+
+  
+
+      /* footer */
+      .main-div{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+          margin-left: 20px;
+           margin-bottom: 15px;}
+
+    .logo-div{
+        margin-left: 0px;
+        margin-bottom:20px;
+    }  }
+
+            
 
 
-      }
+     
 
 
       
