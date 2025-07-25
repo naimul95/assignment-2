@@ -116,7 +116,7 @@
     font-weight: bold;}
 
 .plants-para{
-    font-size: 22px;
+    font-size: 16px;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 15px;}
 
@@ -337,8 +337,10 @@ footer,a{
         margin: 0px 30px;
         column-gap: 15px;
     }
-       .plnats-contain{position: relative;
-                      left:20%;}  
+       .plnats-contain{position: relative; left:20%;} 
+
+    .plants-para{ font-size: 22px;}   
+
     /* end */
 
     /* plants-lover-section */
@@ -416,7 +418,7 @@ footer,a{
                 
                 position: relative;
                 left: 5px;
-                 }              
+                right: 5px; }              
               
    .form-grp{ position: relative;
               left: -120px;
@@ -424,8 +426,7 @@ footer,a{
        
       .sub-btn{
            position: relative;
-           left: 55px;
-      }          
+           left: 55px;}          
       /* end */
 
 /* footer */
