@@ -247,11 +247,28 @@
     min-height: 260px;}
 /* end */
 
+/* join-section */
 
+.join-section { background-image: url(../assets/news-letter-bg.png);
+                 background-size: cover;
+                 width: 100%;
+                text-align: center;
+                 padding: 190px 305px 193px 305px; 
+                margin-top: -30px;}
+             
+   .join-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+     margin-bottom: 25px;} 
 
-
-
-
+.sub-btn{ padding: 16px 54px;
+          position: relative;
+             bottom: -5px;} 
+ .email{ padding: 16px 540px 16px 20px;
+         border: none;}
+  
+/* end */
 
 /* footer */
 
@@ -382,9 +399,36 @@ footer,a{
           background-position: center;}
   /* end */
 
-  
+   /* join-section */
+   
+   .join-title{
+    font-size: 15px;
+    margin-right: -120px;
+          position: relative;
+             top: -40px;
+               left: -40px;}
 
-      /* footer */
+  .email{ padding: 15px 90px 15px 20px;}
+
+  .join-section{width: 100%;
+              height: 275px;
+                 background-size: cover;
+                
+                position: relative;
+                left: 5px;
+                 }              
+              
+   .form-grp{ position: relative;
+              left: -120px;
+                top: -30px;}
+       
+      .sub-btn{
+           position: relative;
+           left: 55px;
+      }          
+      /* end */
+
+/* footer */
       .main-div{
     display: grid;
     grid-template-columns: repeat(1,1fr);
